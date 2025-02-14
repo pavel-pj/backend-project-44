@@ -5,6 +5,11 @@
   "keywords": [
     "brain-games"
   ],
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+
+
   "homepage": "https://github.com/pavel-pj/backend-project-44#readme",
   "bugs": {
     "url": "https://github.com/pavel-pj/backend-project-44/issues"
@@ -15,7 +20,7 @@
   },
   "license": "ISC",
   "author": "Pavel",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "test"
