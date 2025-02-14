@@ -1,0 +1,23 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "brain-game",
+  "keywords": [
+    "brain-games"
+  ],
+  "homepage": "https://github.com/pavel-pj/backend-project-44#readme",
+  "bugs": {
+    "url": "https://github.com/pavel-pj/backend-project-44/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavel-pj/backend-project-44.git"
+  },
+  "license": "ISC",
+  "author": "Pavel",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  }
+}
