@@ -32,4 +32,14 @@ make brain-gcd
 ```
 
 [![asciicast](https://asciinema.org/a/703594.svg)](https://asciinema.org/a/703594)
+
+
+## Brain Progression
+This time you have to find a number in progression. 
+To play the game :
+```
+make brain-progression
+```
+
+[![asciicast](https://asciinema.org/a/703601.svg)](https://asciinema.org/a/703601)
  
