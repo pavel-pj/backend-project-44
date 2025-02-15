@@ -1,4 +1,6 @@
 import readlineSync from 'readline-sync';
+import { makeDataQuestion } from './games/brain-even.js';
+import { brainCalcDataQuestion } from './games/brain-calc.js';
 
 const greeting = () => {
   console.log('Welcome to the Brain Games!');
@@ -12,28 +14,23 @@ function getRandomInt(min, max) {
   const maxF = Math.floor(max);
   return Math.floor(Math.random() * (maxF - minF + 1)) + minF;
 }
-const isEven = (number) => number % 2 === 0;
-const questionIsEven = () => {
-  const number = getRandomInt(1, 100);
-  const even = isEven(number);
-  const correctAnswer = even ? 'yes' : 'no';
-
-  console.log(`Question : ${number}`);
+const question = (ask, correctAnswer) => {
+  console.log(`Question : ${ask}`);
   const answer = readlineSync.question('Your answer :');
 
   if (correctAnswer === answer) {
-    return { result: true, answer, correctAnswer };
+    return { result: true, answer };
   }
-  return { result: false, answer, correctAnswer };
+  return { result: false, answer };
 };
-const brainEven = () => {
+const engine = (callback, name) => {
   const questions = 3;
-  const name = greeting();
-  console.log('Answer "yes" if the number is even, otherwise answer "no".');
-
   let iter = 0;
+
   for (iter; iter < questions; iter += 1) {
-    const { result, answer, correctAnswer } = questionIsEven();
+    const { ask, correctAnswer } = eval(callback)();
+    const { result, answer } = question(ask, correctAnswer);
+
     if (result) {
       console.log('Correct!');
     } else {
@@ -46,4 +43,10 @@ const brainEven = () => {
     console.log(`Congratulations,${name}!`);
   }
 };
-export default brainEven;
+
+export {
+  greeting,
+  question,
+  getRandomInt,
+  engine,
+};

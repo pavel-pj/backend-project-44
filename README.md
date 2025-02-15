@@ -8,4 +8,8 @@
 This is a simple game : get the random number and try to check is it even or not;
 
 [![asciicast](https://asciinema.org/a/703549.svg)](https://asciinema.org/a/703549)
+
+## Brain Calc
+Try to add, substract and multiply numbers in this game. You have 3 levels, if you fail in any level - the game will over! 
+[![asciicast](https://asciinema.org/a/703549.svg)](https://asciinema.org/a/703549)
  

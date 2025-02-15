@@ -1,3 +1,3 @@
-import brainEven from '../src/engine.js';
+import { brainEvenProgram } from '../src/games/brain-even.js';
 
-brainEven();
+brainEvenProgram();
