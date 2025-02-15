@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import cliQuestion from '../src/cli.js'
+import cliQuestion from '../src/cli.js';
 
 cliQuestion();
