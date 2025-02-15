@@ -3,3 +3,6 @@
 
 
 # Brain Games (JavaScript Console Games)
+
+## Brain Even 
+This is a simple game : get the random number and try to check is it even or not; 
