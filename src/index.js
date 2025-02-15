@@ -13,8 +13,8 @@ function getRandomInt(min, max) {
   return Math.floor(Math.random() * (maxF - minF + 1)) + minF;
 }
 const question = (ask, correctAnswer) => {
-  console.log(`Question : ${ask}`);
-  const answer = readlineSync.question('Your answer :');
+  console.log(`Question: ${ask}`);
+  const answer = readlineSync.question('Your answer: ');
 
   if (correctAnswer === answer) {
     return { result: true, answer };
@@ -33,12 +33,12 @@ const engine = (callback, name) => {
       console.log('Correct!');
     } else {
       console.log(`${answer} is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
-      console.log(`Let's try again,${name}!`);
+      console.log(`Let's try again, ${name}!`);
       break;
     }
   }
   if (iter === questions) {
-    console.log(`Congratulations,${name}!`);
+    console.log(`Congratulations, ${name}!`);
   }
 };
 
