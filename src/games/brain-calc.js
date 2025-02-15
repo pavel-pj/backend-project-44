@@ -33,7 +33,7 @@ const brainCalcDataQuestion = () => {
 const brainCalcProgram = () => {
   const name = engine.greeting();
   console.log('What is the result of the expression?');
-  engine.engine('brainCalcDataQuestion', name);
+  engine.engine(brainCalcDataQuestion, name);
 };
 
 export { brainCalcProgram, brainCalcDataQuestion };

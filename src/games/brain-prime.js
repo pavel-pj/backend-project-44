@@ -11,13 +11,17 @@ const isPrime = (number) => {
 const brainPrimeDataQuestion = () => {
   const ask = engine.getRandomInt(1, 1000);
   let correctAnswer = '';
-  (isPrime(ask)) ? correctAnswer = 'yes' : correctAnswer = 'no';
+  if (isPrime(ask)) {
+    correctAnswer = 'yes';
+  } else {
+    correctAnswer = 'no';
+  }
   return { ask, correctAnswer };
 };
 const brainPrimeProgram = () => {
   const name = engine.greeting();
   console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
-  engine.engine('brainPrimeDataQuestion', name);
+  engine.engine(brainPrimeDataQuestion, name);
 };
 
 export { brainPrimeProgram, brainPrimeDataQuestion };

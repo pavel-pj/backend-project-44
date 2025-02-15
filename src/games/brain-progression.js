@@ -28,7 +28,7 @@ const brainProgressionDataQuestion = () => {
 const brainProgressionProgram = () => {
   const name = engine.greeting();
   console.log('What number is missing in the progression?');
-  engine.engine('brainProgressionDataQuestion', name);
+  engine.engine(brainProgressionDataQuestion, name);
 };
 
 export { brainProgressionProgram, brainProgressionDataQuestion };

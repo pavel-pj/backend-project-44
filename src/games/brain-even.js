@@ -11,7 +11,7 @@ function makeDataQuestion() {
 const brainEvenProgram = () => {
   const name = engine.greeting();
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
-  engine.engine('makeDataQuestion', name);
+  engine.engine(makeDataQuestion, name);
 };
 
 export { makeDataQuestion, brainEvenProgram };
