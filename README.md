@@ -6,4 +6,6 @@
 
 ## Brain Even 
 This is a simple game : get the random number and try to check is it even or not;
-https://asciinema.org/a/l40Lrk3midkLmNEOmgZErGnY7
+ 
+<video src='https://asciinema.org/a/l40Lrk3midkLmNEOmgZErGnY7' width=180/>
+ 
