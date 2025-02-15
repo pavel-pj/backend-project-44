@@ -21,4 +21,15 @@ To play the game :
 make brain-calc
 ```
 [![asciicast](https://asciinema.org/a/703549.svg)](https://asciinema.org/a/703549)
+
+## Brain Gcd
+The system will provide you 2 numbers and your task is to find the greatest common divisor.
+For example : 50 75
+The greatest common divisor is 25
+To play the game :
+```
+make brain-gcd
+```
+
+[![asciicast](https://asciinema.org/a/703594.svg)](https://asciinema.org/a/703594)
  

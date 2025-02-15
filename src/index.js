@@ -1,6 +1,7 @@
 import readlineSync from 'readline-sync';
 import { makeDataQuestion } from './games/brain-even.js';
 import { brainCalcDataQuestion } from './games/brain-calc.js';
+import { brainGcdDataQuestion } from './games/brain-gcd.js';
 
 const greeting = () => {
   console.log('Welcome to the Brain Games!');
