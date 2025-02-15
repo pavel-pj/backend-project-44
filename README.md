@@ -42,4 +42,14 @@ make brain-progression
 ```
 
 [![asciicast](https://asciinema.org/a/703601.svg)](https://asciinema.org/a/703601)
+
+## Brain Prime
+The player should suggest if a number is prime or not. (The prime number has only 2 divisor : 1 and itself );
+Example : 10 could be divided on 1,2,5,10. 541 could be divided on 1,541. So 541 - is a prime number; 
+To play the game :
+```
+make brain-prime
+```
+
+[![asciicast](https://asciinema.org/a/703607.svg)](https://asciinema.org/a/703607)
  

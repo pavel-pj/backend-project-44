@@ -3,7 +3,7 @@ import { makeDataQuestion } from './games/brain-even.js';
 import { brainCalcDataQuestion } from './games/brain-calc.js';
 import { brainGcdDataQuestion } from './games/brain-gcd.js';
 import { brainProgressionDataQuestion } from './games/brain-progression.js';
-
+import { brainPrimeDataQuestion } from './games/brain-prime.js';
 const greeting = () => {
   console.log('Welcome to the Brain Games!');
   const name = readlineSync.question('May I have your name?');
