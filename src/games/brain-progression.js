@@ -1,9 +1,9 @@
 import * as engine from '../index.js';
 
 const brainProgressionDataQuestion = () => {
-  const first = engine.getRandomInt(1, 100);
-  const amount = engine.getRandomInt(9, 15);
-  const step = engine.getRandomInt(3, 6);
+  const first = engine.getRandomInt(1, 10);
+  const amount = engine.getRandomInt(6, 10);
+  const step = engine.getRandomInt(2, 5);
   const position = engine.getRandomInt(1, amount);
   const array = [];
 

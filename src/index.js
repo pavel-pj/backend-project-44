@@ -6,7 +6,6 @@ const greeting = () => {
   console.log('Hello, '.concat(name));
   return name;
 };
-
 function getRandomInt(min, max) {
   const minF = Math.ceil(min);
   const maxF = Math.floor(max);
