@@ -7,9 +7,9 @@ const brainProgressionDataQuestion = () => {
   const position = engine.getRandomInt(1, amount);
   const array = [];
 
-  let i = 0;
+  let i = 1;
   let correctAnswer = '';
-  while (i < amount) {
+  while (i <= amount) {
     let number = '';
     if (i !== position) {
       number = first + i * step;
